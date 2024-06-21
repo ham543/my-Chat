@@ -1,0 +1,20 @@
+{
+    "name": "your-project",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider next dev",
+        "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider next build",
+        "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider next start"
+    },
+    "dependencies": {
+        "@babel/runtime": "^7.24.7",
+        "axios": "^1.7.2",
+        "next": "latest",
+        "react": "^18.3.1",
+        "react-chat-engine": "^1.11.28",
+        "react-dom": "latest"
+    },
+    "devDependencies": {
+        "cross-env": "^7.0.3"
+    }
+}
